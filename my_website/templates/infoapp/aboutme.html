@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends "infoapp/base.html" %}
+{% load static %}
+{% block body_block %}
+  <div class="container">
+    <p></p>
+    <p></p>
+    <p></p>
+    <div class="jumbotron">
+      <div class="text-center">
+        <h1>A little bit about myself</h1>
+        <div style="height: 20px"></div>
+      </div>
+      <p>I was born in  a tiny village called Yashkul located in the outskirts of Russia.
+        I'm kalmyk and if you didn't know that there was such an ethnicity, don't feel bad. Most don't.
+        We are a small group of nomad people who migrated from Mongolia to Russia in the early 1600s. Nowadays, it's the only region that practices Buddhism in Europe.
+      There are quite a lot of interesting facts and if you're interested in knowing more, feel free to message me!</p>
+        <div class="row">
+          <div class="col-md-12">
+            <figure class="text-center">
+                <img src="{% static "infoapp/images/buddhist_temple.jpg"%}" alt="" width="100%" class="center">
+                <figcaption>Buddhist Temple In Elista, Kalmykia</figcaption>
+            </figure>
+          </div>
+        </div>
+      <p></p>
+      <p>For awhile I've been struggling trying to find my "passion" and finally accidentally found it in programming. Once I knew what I wanted to do I jumped right in with no hesitation and decided to get a Masters degree in it at all costs. I was fortunate enough to continue working at my old job and study for awhile and loved every minute that I spent in school.
+        Nothing compares to the satisfaction and a sense of accomplishment you get when your code
+        finally does what you intended it to do. It's been a few days since I have graduated and I already miss it but super excited for what the next chapter will bring my way!
+        </p>
+      <p>I dip my toes in anything I can. I love to do DIY projects and starting new hobbies.
+        I like to be handy around the house so sometimes do odd jobs like painting, laying tiles, fixing toilets and such.
+        I find small pleasures in finishing something that no one expects me to do.
+      <p>I also love artsy stuff. I have a small instagram account with just a few examples of the work I do.
+        I did all kinds of mediums but colored pencils are the new obssession of mine and will probably try digital painting
+        when I get more free time.</p>
+    </div>
+
+  </div>
+{% endblock %}

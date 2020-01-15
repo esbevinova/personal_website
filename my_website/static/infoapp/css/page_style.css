@@ -1,0 +1,39 @@
+
+body {
+  background: url('https://www.solidbackgrounds.com/images/2560x1440/2560x1440-roman-silver-solid-color-background.jpg') no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.row-centered {text-align:center;}
+.col-centered { display:inline-block; float:none; margin-right:-4px;}
